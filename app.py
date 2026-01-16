@@ -50,6 +50,7 @@ scaler, model = train_model()
 
 
 # -------------------- UI --------------------
+st.title("Hi! I am akshara. This is my first end to end ML project - so please don't judge 🙏🏻 ")
 st.title("🏡 California Real Estate Price Predictor")
 st.write("Enter property details to predict the **median house price**.")
 
