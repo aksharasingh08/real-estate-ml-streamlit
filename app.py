@@ -50,7 +50,6 @@ scaler, model = train_model()
 
 
 # -------------------- UI --------------------
-st.title("Hi! I am akshara. This is my first end to end ML project - so please don't judge 🙏🏻 ")
 st.title("🏡 California Real Estate Price Predictor")
 st.write("Enter property details to predict the **median house price**.")
 
@@ -133,3 +132,23 @@ if st.button("Predict Price"):
     st.success(
         f"🏠 **Predicted House Price:** ${final_price:,.0f}"
     )
+
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color: gray;
+        font-size: 11px;
+    }
+    </style>
+
+    <div class="footer">
+        Built with ❤️ by Akshara | First end-to-end ML project
+    </div>
+    """,
+    unsafe_allow_html=True
+)
